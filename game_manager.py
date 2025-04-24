@@ -1,4 +1,4 @@
-# Edited by Amr Elsayed
+# Edited by Amr Elsayed abdul hamed
 import pygame
 import asyncio
 import sys
