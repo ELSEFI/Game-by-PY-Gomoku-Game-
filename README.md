@@ -80,9 +80,9 @@ Gomoku_ai/
 
 ## 📷 Screenshots
 
-![Game Board](screenshots/Mainscreen.png)
-![Game Board](screenshots/Gui.png)
-![Game Board](screenshots/Ph2.png)
+![Game Board](Screenshots/Mainscreen.png)
+![Game Board](Screenshots/Gui.png)
+![Game Board](Screenshots/Ph2.png)
 
 ---
 
