@@ -93,5 +93,3 @@ This project is for academic and educational purposes.
 ## ❤️ Made with Python + Pygame
 
 ```
-
-```
