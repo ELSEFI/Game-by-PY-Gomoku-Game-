@@ -4,6 +4,17 @@ A Python-based Gomoku game with an AI opponent using the Minimax algorithm with 
 
 ---
 
+## 📌 Project Overview
+
+This project is a Gomoku game built with Python using a clean modular architecture:
+
+- **`main.py`**: Entry point that starts the game.
+- **`game_manager.py`**: Handles the game loop, player turns, and win condition checks.
+- **`game_ui.py`**: Manages the graphical interface and interactions using `Tkinter`.
+- **`gomoku_board.py`**: Implements the game logic, AI algorithm, and board operations.
+
+---
+
 ## 🎮 Game Modes
 
 - 🆚 Human vs Human
@@ -23,31 +34,41 @@ A Python-based Gomoku game with an AI opponent using the Minimax algorithm with 
 
 ---
 
-## 📁 Project Structure
+## 🗂️ Folder Structure
 
-| File              | Description                                       |
-| ----------------- | ------------------------------------------------- |
-| `main.py`         | Entry point – runs the game loop using asyncio    |
-| `gomoku_board.py` | Core logic of the board + AI player class         |
-| `game_manager.py` | Handles game flow, turns, and AI behavior         |
-| `game_ui.py`      | Responsible for drawing the board and UI elements |
+```
+Gomoku_ai/
+│
+├── main.py               # Entry point
+├── game_manager.py       # Manages game state
+├── game_ui.py            # Builds GUI and handles events
+├── gomoku_board.py       # Game logic and AI engine
+├── Screenshots/          # UI screenshots
+├── README.md             # Project documentation
+└── Gomoku_AI_Project_Report.pdf  # Original report
+```
 
 ---
 
 ## 🚀 How to Run
 
-Make sure you have Python 3 installed, then run:
-
-```bash
-pip install pygame
-python main.py
+1. Make sure you have **Python 3.9+** installed.
+2. Install any missing dependencies (if any):
+   ```bash
+   pip install -r requirements.txt
+   ```
+   > This project mostly uses built-in libraries (like `tkinter`), so no extra installations should be needed.
+3. Run the game:
+   ```bash
+   python main.py
+   ```
 
 ---
 
 ## 👨‍💻 Team Members & Contributions
 
 | Name            | GitHub         | Contribution                     |
-|--------------   |----------------|----------------------------------|
+| --------------- | -------------- | -------------------------------- |
 | Mohamed Elsayed | @ELSEFI        | `gomoku_board.py,Project_Report` |
 | Zeyad Ibrahim   | @ziad-ibrahim1 | `gomoku_board.py`                |
 | Amr Elsayed     | @amrelsaid4    | `game_manager.py`                |
@@ -59,11 +80,18 @@ python main.py
 
 ## 📷 Screenshots
 
-![Game Board](screenshots/Mainscreen.png.png)
-![Game Board](screenshots/Gui.png.png.png)
-![Game Board](screenshots/Ph2.png.png.png)
+![Game Board](screenshots/Mainscreen.png)
+![Game Board](screenshots/Gui.png)
+![Game Board](screenshots/Ph2.png)
 
 ---
 
+## 📄 License
+
+This project is for academic and educational purposes.
+
 ## ❤️ Made with Python + Pygame
+
+```
+
 ```
